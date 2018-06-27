@@ -1,0 +1,281 @@
+Last login: Mon May  7 08:06:12 on console
+Restored session: Fri Apr 20 08:44:47 PDT 2018
+glens-iMac-2:~ Glen$ brew install hugo
+-bash: brew: command not found
+glens-iMac-2:~ Glen$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+==> The following existing directories will be made group writable:
+/usr/local/bin
+/usr/local/include
+/usr/local/lib
+/usr/local/share
+/usr/local/lib/pkgconfig
+/usr/local/share/info
+/usr/local/share/man
+/usr/local/share/man/man1
+/usr/local/share/man/man5
+==> The following existing directories will have their owner set to Glen:
+/usr/local/bin
+/usr/local/include
+/usr/local/lib
+/usr/local/share
+/usr/local/lib/pkgconfig
+/usr/local/share/info
+/usr/local/share/man
+/usr/local/share/man/man1
+/usr/local/share/man/man5
+==> The following existing directories will have their group set to admin:
+/usr/local/bin
+/usr/local/include
+/usr/local/lib
+/usr/local/share
+/usr/local/lib/pkgconfig
+/usr/local/share/info
+/usr/local/share/man
+/usr/local/share/man/man1
+/usr/local/share/man/man5
+==> The following new directories will be created:
+/usr/local/Cellar
+/usr/local/Homebrew
+/usr/local/Frameworks
+/usr/local/etc
+/usr/local/opt
+/usr/local/sbin
+/usr/local/share/zsh
+/usr/local/share/zsh/site-functions
+/usr/local/var
+==> The Xcode Command Line Tools will be installed.
+
+Press RETURN to continue or any other key to abort
+==> /usr/bin/sudo /bin/chmod u+rwx /usr/local/bin /usr/local/include /usr/local/lib /usr/local/share /usr/local/lib/pkgconfig /usr/local/share/info /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man5
+Password:
+==> /usr/bin/sudo /bin/chmod g+rwx /usr/local/bin /usr/local/include /usr/local/lib /usr/local/share /usr/local/lib/pkgconfig /usr/local/share/info /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man5
+==> /usr/bin/sudo /usr/sbin/chown Glen /usr/local/bin /usr/local/include /usr/local/lib /usr/local/share /usr/local/lib/pkgconfig /usr/local/share/info /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man5
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/bin /usr/local/include /usr/local/lib /usr/local/share /usr/local/lib/pkgconfig /usr/local/share/info /usr/local/share/man /usr/local/share/man/man1 /usr/local/share/man/man5
+==> /usr/bin/sudo /bin/mkdir -p /usr/local/Cellar /usr/local/Homebrew /usr/local/Frameworks /usr/local/etc /usr/local/opt /usr/local/sbin /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var
+==> /usr/bin/sudo /bin/chmod g+rwx /usr/local/Cellar /usr/local/Homebrew /usr/local/Frameworks /usr/local/etc /usr/local/opt /usr/local/sbin /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var
+==> /usr/bin/sudo /bin/chmod 755 /usr/local/share/zsh /usr/local/share/zsh/site-functions
+==> /usr/bin/sudo /usr/sbin/chown Glen /usr/local/Cellar /usr/local/Homebrew /usr/local/Frameworks /usr/local/etc /usr/local/opt /usr/local/sbin /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/Cellar /usr/local/Homebrew /usr/local/Frameworks /usr/local/etc /usr/local/opt /usr/local/sbin /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var
+==> /usr/bin/sudo /bin/mkdir -p /Users/Glen/Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Users/Glen/Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown Glen /Users/Glen/Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/mkdir -p /Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown Glen /Library/Caches/Homebrew
+==> Searching online for the Command Line Tools
+==> /usr/bin/sudo /usr/bin/touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
+==> Installing Command Line Tools (macOS Sierra version 10.12) for Xcode-9.2
+==> /usr/bin/sudo /usr/sbin/softwareupdate -i Command\ Line\ Tools\ (macOS\ Sierra\ version\ 10.12)\ for\ Xcode-9.2
+Software Update Tool
+
+
+Downloading Command Line Tools (macOS Sierra version 10.12) for Xcode
+Downloaded Command Line Tools (macOS Sierra version 10.12) for Xcode
+Installing Command Line Tools (macOS Sierra version 10.12) for Xcode
+Done with Command Line Tools (macOS Sierra version 10.12) for Xcode
+Done.
+==> /usr/bin/sudo /bin/rm -f /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
+==> /usr/bin/sudo /usr/bin/xcode-select --switch /Library/Developer/CommandLineTools
+==> Downloading and installing Homebrew...
+remote: Counting objects: 103258, done.
+remote: Total 103258 (delta 0), reused 0 (delta 0), pack-reused 103257
+Receiving objects: 100% (103258/103258), 23.47 MiB | 17.30 MiB/s, done.
+Resolving deltas: 100% (75303/75303), done.
+From https://github.com/Homebrew/brew
+ * [new branch]          master     -> origin/master
+ * [new tag]             0.1        -> 0.1
+ * [new tag]             0.2        -> 0.2
+ * [new tag]             0.3        -> 0.3
+ * [new tag]             0.4        -> 0.4
+ * [new tag]             0.5        -> 0.5
+ * [new tag]             0.6        -> 0.6
+ * [new tag]             0.7        -> 0.7
+ * [new tag]             0.7.1      -> 0.7.1
+ * [new tag]             0.8        -> 0.8
+ * [new tag]             0.8.1      -> 0.8.1
+ * [new tag]             0.9        -> 0.9
+ * [new tag]             0.9.1      -> 0.9.1
+ * [new tag]             0.9.2      -> 0.9.2
+ * [new tag]             0.9.3      -> 0.9.3
+ * [new tag]             0.9.4      -> 0.9.4
+ * [new tag]             0.9.5      -> 0.9.5
+ * [new tag]             0.9.8      -> 0.9.8
+ * [new tag]             0.9.9      -> 0.9.9
+ * [new tag]             1.0.0      -> 1.0.0
+ * [new tag]             1.0.1      -> 1.0.1
+ * [new tag]             1.0.2      -> 1.0.2
+ * [new tag]             1.0.3      -> 1.0.3
+ * [new tag]             1.0.4      -> 1.0.4
+ * [new tag]             1.0.5      -> 1.0.5
+ * [new tag]             1.0.6      -> 1.0.6
+ * [new tag]             1.0.7      -> 1.0.7
+ * [new tag]             1.0.8      -> 1.0.8
+ * [new tag]             1.0.9      -> 1.0.9
+ * [new tag]             1.1.0      -> 1.1.0
+ * [new tag]             1.1.1      -> 1.1.1
+ * [new tag]             1.1.10     -> 1.1.10
+ * [new tag]             1.1.11     -> 1.1.11
+ * [new tag]             1.1.12     -> 1.1.12
+ * [new tag]             1.1.13     -> 1.1.13
+ * [new tag]             1.1.2      -> 1.1.2
+ * [new tag]             1.1.3      -> 1.1.3
+ * [new tag]             1.1.4      -> 1.1.4
+ * [new tag]             1.1.5      -> 1.1.5
+ * [new tag]             1.1.6      -> 1.1.6
+ * [new tag]             1.1.7      -> 1.1.7
+ * [new tag]             1.1.8      -> 1.1.8
+ * [new tag]             1.1.9      -> 1.1.9
+ * [new tag]             1.2.0      -> 1.2.0
+ * [new tag]             1.2.1      -> 1.2.1
+ * [new tag]             1.2.2      -> 1.2.2
+ * [new tag]             1.2.3      -> 1.2.3
+ * [new tag]             1.2.4      -> 1.2.4
+ * [new tag]             1.2.5      -> 1.2.5
+ * [new tag]             1.2.6      -> 1.2.6
+ * [new tag]             1.3.0      -> 1.3.0
+ * [new tag]             1.3.1      -> 1.3.1
+ * [new tag]             1.3.2      -> 1.3.2
+ * [new tag]             1.3.3      -> 1.3.3
+ * [new tag]             1.3.4      -> 1.3.4
+ * [new tag]             1.3.5      -> 1.3.5
+ * [new tag]             1.3.6      -> 1.3.6
+ * [new tag]             1.3.7      -> 1.3.7
+ * [new tag]             1.3.8      -> 1.3.8
+ * [new tag]             1.3.9      -> 1.3.9
+ * [new tag]             1.4.0      -> 1.4.0
+ * [new tag]             1.4.1      -> 1.4.1
+ * [new tag]             1.4.2      -> 1.4.2
+ * [new tag]             1.4.3      -> 1.4.3
+ * [new tag]             1.5.0      -> 1.5.0
+ * [new tag]             1.5.1      -> 1.5.1
+ * [new tag]             1.5.10     -> 1.5.10
+ * [new tag]             1.5.11     -> 1.5.11
+ * [new tag]             1.5.12     -> 1.5.12
+ * [new tag]             1.5.13     -> 1.5.13
+ * [new tag]             1.5.14     -> 1.5.14
+ * [new tag]             1.5.2      -> 1.5.2
+ * [new tag]             1.5.3      -> 1.5.3
+ * [new tag]             1.5.4      -> 1.5.4
+ * [new tag]             1.5.5      -> 1.5.5
+ * [new tag]             1.5.6      -> 1.5.6
+ * [new tag]             1.5.7      -> 1.5.7
+ * [new tag]             1.5.8      -> 1.5.8
+ * [new tag]             1.5.9      -> 1.5.9
+ * [new tag]             1.6.0      -> 1.6.0
+ * [new tag]             1.6.1      -> 1.6.1
+ * [new tag]             1.6.2      -> 1.6.2
+ * [new tag]             1.6.3      -> 1.6.3
+ * [new tag]             1.6.4      -> 1.6.4
+ * [new tag]             1.6.5      -> 1.6.5
+ * [new tag]             1.6.6      -> 1.6.6
+ * [new tag]             1.6.7      -> 1.6.7
+ * [new tag]             1.6.8      -> 1.6.8
+ * [new tag]             1.6.9      -> 1.6.9
+HEAD is now at 25542d739 Merge pull request #4316 from reitermarkus/merge-search
+==> Downloading https://homebrew.bintray.com/bottles-portable-ruby/portable-ruby-2.3.3_2.leopard_64.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring portable-ruby-2.3.3_2.leopard_64.bottle.tar.gz
+==> Tapping homebrew/core
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core'...
+remote: Counting objects: 4789, done.
+remote: Compressing objects: 100% (4564/4564), done.
+remote: Total 4789 (delta 56), reused 1037 (delta 37), pack-reused 0
+Receiving objects: 100% (4789/4789), 3.88 MiB | 12.58 MiB/s, done.
+Resolving deltas: 100% (56/56), done.
+Checking out files: 100% (4806/4806), done.
+Tapped 4577 formulae (4,830 files, 12.2MB)
+==> Cleaning up /Library/Caches/Homebrew...
+==> Migrating /Library/Caches/Homebrew to /Users/Glen/Library/Caches/Homebrew...
+==> Deleting /Library/Caches/Homebrew...
+Already up-to-date.
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate user behaviour analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics.html
+
+==> Next steps:
+- Run `brew help` to get started
+- Further documentation: 
+    https://docs.brew.sh
+glens-iMac-2:~ Glen$ brew install hugo
+Error: Your Xcode (6.1) is too outdated.
+Please update to Xcode 9.2 (or delete it).
+Xcode can be updated from the App Store.
+
+glens-iMac-2:~ Glen$ softwareupdate --install xcode
+Software Update Tool
+
+xcode: No such update
+No updates are available.
+glens-iMac-2:~ Glen$ brew install hugo
+==> Downloading https://homebrew.bintray.com/bottles/hugo-0.42.1.sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring hugo-0.42.1.sierra.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/hugo/0.42.1: 32 files, 28.3MB
+glens-iMac-2:~ Glen$ hugo version
+Hugo Static Site Generator v0.42.1 darwin/amd64
+glens-iMac-2:~ Glen$ hugo new site hugo1
+Congratulations! Your new Hugo site is created in /Users/Glen/hugo1.
+
+Just a few more steps and you're ready to go:
+
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/, or
+   create your own with the "hugo new theme <THEMENAME>" command.
+2. Perhaps you want to add some content. You can add single files
+   with "hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>".
+3. Start the built-in live server via "hugo server".
+
+Visit https://gohugo.io/ for quickstart guide and full documentation.
+glens-iMac-2:~ Glen$ cd hugo1
+glens-iMac-2:hugo1 Glen$ git init
+Initialized empty Git repository in /Users/Glen/hugo1/.git/
+glens-iMac-2:hugo1 Glen$ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+Cloning into '/Users/Glen/hugo1/themes/ananke'...
+remote: Counting objects: 1104, done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 1104 (delta 9), reused 9 (delta 4), pack-reused 1083
+Receiving objects: 100% (1104/1104), 2.51 MiB | 9.75 MiB/s, done.
+Resolving deltas: 100% (584/584), done.
+glens-iMac-2:hugo1 Glen$ hugo new posts/my-first-post.md
+Error: While parsing config: (4, 6): was expecting token =, but got keys cannot contain new lines instead
+glens-iMac-2:hugo1 Glen$ hugo server -D
+Error: While parsing config: (4, 6): was expecting token =, but got keys cannot contain new lines instead
+glens-iMac-2:hugo1 Glen$ hugo new posts/my-first-post.md
+/Users/Glen/hugo1/content/posts/my-first-post.md created
+glens-iMac-2:hugo1 Glen$ theme = "ananke"
+-bash: theme: command not found
+glens-iMac-2:hugo1 Glen$ hugo server -D
+
+                   | EN  
++------------------+----+
+  Pages            | 10  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  1  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 19 ms
+Watching for changes in /Users/Glen/hugo1/{content,data,layouts,static,themes}
+Watching for config changes in /Users/Glen/hugo1/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
